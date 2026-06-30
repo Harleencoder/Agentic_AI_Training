@@ -305,7 +305,7 @@ The Ride Booking application is an excellent example of MVC Architecture.
 * Process Ride Booking
 * Update Ride Status
 
-> **Flowchart:** Refer to the Ride Booking MVC Architecture flowchart created separately.
+![MVC Architecture - Ride Booking Application](Images/Flowchart.png)
 
 ---
 
