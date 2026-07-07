@@ -277,25 +277,26 @@ AI systems are capable of:
 
 Artificial Intelligence has evolved through multiple stages.
 
-## Artificial Intelligence (AI)
 
-↓
+```mermaid
+flowchart TD
+    A["Artificial Intelligence (AI)"]
+    --> B["Machine Learning (ML)"]
+    --> C["Deep Learning (DL)"]
+    --> D["Large Language Models (LLMs)"]
+```
 
-## Machine Learning (ML)
+### Machine Learning (ML)
 
 * Supervised Learning
 * Unsupervised Learning
 
-↓
-
-## Deep Learning (DL)
+### Deep Learning (DL)
 
 * Convolutional Neural Networks (CNNs)
 * Recurrent Neural Networks (RNNs)
 
-↓
-
-## Large Language Models (LLMs)
+### Large Language Models (LLMs)
 
 Large Language Models understand and generate human language and form the foundation of modern AI assistants.
 
