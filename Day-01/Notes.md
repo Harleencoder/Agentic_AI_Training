@@ -70,23 +70,14 @@ The trainer explained program execution using the Orange Juice analogy.
 
 **Flow**
 
-Oranges (Raw Input)
-
-↓
-
-Juicer (Processing)
-
-↓
-
-Juice (Processed Output)
-
-↓
-
-Packaging
-
-↓
-
-Glass (Ready to Use)
+```mermaid
+flowchart TD
+    A["Oranges<br/>(Raw Input)"]
+    --> B["Juicer<br/>(Processing)"]
+    --> C["Juice<br/>(Processed Output)"]
+    --> D["Packaging"]
+    --> E["Glass<br/>(Ready to Use)"]
+```
 
 This demonstrates how source code is transformed into an executable application.
 
@@ -106,31 +97,17 @@ Applications written in different programming languages ultimately communicate w
 
 ## C / C++
 
-Source Code (MyApp.cpp)
+```mermaid
+flowchart TD
+    A["Source Code<br/>MyApp.cpp"]
+    --> B["Compiler"]
+    --> C["MyApp.obj"]
+    --> D["Pack"]
+    --> E["MyApp.exe"]
+    --> F["Operating System<br/>(OS extracts object code and converts it to Machine Code)"]
+    --> G["Hardware"]
+```
 
-↓
-
-Compiler
-
-↓
-
-MyApp.obj
-
-↓
-
-Pack
-
-↓
-
-MyApp.exe 
-
-↓
-
-OS (Os extracts object code and converts it to Machine Code)
-
-↓
-
-Hardware
 
 ### Characteristics
 
@@ -143,28 +120,15 @@ Hardware
 
 ## Java
 
-Source Code (MyAPP.java)
-
-↓
-
-Java Compiler
-
-↓
-
-Bytecode (MyAPP.class)
-
-↓
-
-Java Virtual Machine (JVM)
-
-↓
-
-Operating System
-
-↓
-
-Hardware
-
+```mermaid
+flowchart TD
+    A["Source Code<br/>MyAPP.java"]
+    --> B["Java Compiler"]
+    --> C["Bytecode<br/>MyAPP.class"]
+    --> D["Java Virtual Machine (JVM)"]
+    --> E["Operating System"]
+    --> F["Hardware"]
+```
 ### Characteristics
 
 * Platform Independent
@@ -175,19 +139,13 @@ Hardware
 
 ## Python
 
-Source Code (MyApp.py)
-
-↓
-
-Python Virtual Machine
-
-↓
-
-Operating System
-
-↓
-
-Hardware
+```mermaid
+flowchart TD
+    A["Source Code<br/>MyApp.py"]
+    --> B["Python Virtual Machine"]
+    --> C["Operating System"]
+    --> D["Hardware"]
+```
 
 ### Characteristics
 
