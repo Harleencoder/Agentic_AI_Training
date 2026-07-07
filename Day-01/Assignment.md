@@ -6,40 +6,40 @@
 
 ---
 
-# MVC Architecture for Software Development
+## MVC Architecture for Software Development
 
-## 1. GPS Navigation
+### 1. GPS Navigation
 
-### MODEL (Data)
+#### MODEL (Data)
 - Source location
 - Destination location
 - Type of vehicles
 
-### VIEW (Interfaces/Screens/UI)
+#### VIEW (Interfaces/Screens/UI)
 - Map display
 - Visual interface with EditTexts, buttons, etc.
 
-### CONTROLLER (Logic)
+#### CONTROLLER (Logic)
 - Shortest path
 - Nearest location
 - Least traffic
 
 ---
 
-## 2. Campus Agent
+### 2. Campus Agent
 
-### MODEL (Data)
+#### MODEL (Data)
 - Event Information
 - User Information
 - University/Campus Information
 
-### VIEW (Interfaces/Screens/UI)
+#### VIEW (Interfaces/Screens/UI)
 - Map display of campus
 - Visual interface with EditTexts, buttons, etc.
 - Chat interface with fellow university students
 - Event details screen
 
-### CONTROLLER (Logic)
+#### CONTROLLER (Logic)
 - Notify students about events on campus
 - Shortest path for students to reach the event location
 - Handle sending and receiving chat messages
