@@ -155,7 +155,7 @@ flowchart TD
 
 ---
 
-## MVC Example – Ride Booking Application
+## MVC Architecture (Model–View–Controller)
 
 MVC is a software architecture pattern that separates an application into three independent components.
 
