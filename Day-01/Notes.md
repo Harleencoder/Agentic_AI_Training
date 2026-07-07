@@ -1,12 +1,5 @@
 #  Day 01 – Introduction to Agentic AI & Python Fundamentals
 
-**Date:** 25 June 2026
-
-**Training Program:** Agentic AI Training
-
-**Organization:** Auribises Technologies
-
----
 
 # Introduction to Auribises Technologies
 
@@ -351,13 +344,5 @@ Large Language Models understand and generate human language and form the founda
 
 ---
 
-# Key Takeaways
 
-* Learned the fundamentals of Python programming.
-* Understood programming as a problem-solving approach.
-* Learned the importance of Time Complexity and Space Complexity.
-* Understood how C/C++, Java and Python communicate with the Operating System.
-* Studied the compilation and execution process of different programming languages.
-* Learned the MVC Architecture using a Ride Booking Application.
-* Explored the evolution of Artificial Intelligence from AI to Large Language Models.
 
