@@ -155,7 +155,7 @@ flowchart TD
 
 ---
 
-##  MVC Architecture (Model–View–Controller)
+## MVC Example – Ride Booking Application
 
 MVC is a software architecture pattern that separates an application into three independent components.
 
@@ -165,20 +165,20 @@ This separation improves maintainability, scalability and code organization.
 
 The Model manages the application's data.
 
-### Responsibilities
+#### Responsibilities
 
 * Store data
 * Retrieve data
 * Update data
 
-### Examples
+#### Examples
 
 * Source Location
 * Destination Location
 * User Information
 * Vehicle Information
 
-### Optimization Focus
+#### Optimization Focus
 
 **Data Structures**
 
@@ -188,12 +188,12 @@ The Model manages the application's data.
 
 The View represents everything visible to the user.
 
-### Responsibilities
+#### Responsibilities
 
 * Display information
 * Accept user input
 
-### Examples
+#### Examples
 
 * Mobile Application Screen
 * Map Display
@@ -201,7 +201,7 @@ The View represents everything visible to the user.
 * EditTexts
 * Images
 
-### Optimization Focus
+#### Optimization Focus
 
 **User Experience (UX)**
 
@@ -211,20 +211,20 @@ The View represents everything visible to the user.
 
 The Controller contains the application's business logic.
 
-### Responsibilities
+#### Responsibilities
 
 * Process user requests
 * Execute algorithms
 * Connect Model and View
 
-### Examples
+#### Examples
 
 * Find Nearest Cab
 * Calculate Shortest Route
 * Traffic Analysis
 * Cab Allocation
 
-### Optimization Focus
+#### Optimization Focus
 
 **Algorithms**
 
